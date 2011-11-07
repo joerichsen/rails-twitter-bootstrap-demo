@@ -1,3 +1,4 @@
+# From https://raw.github.com/rafaelfranca/simple_form-bootstrap/master/config/initializers/simple_form.rb
 # Use this setup block to configure all options available in SimpleForm.
 SimpleForm.setup do |config|
   # Wrappers are used by the form builder to generate a complete input.
