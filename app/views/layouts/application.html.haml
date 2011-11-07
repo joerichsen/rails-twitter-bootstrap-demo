@@ -15,4 +15,10 @@
             %li.active= link_to 'Meetings', meetings_path
 
     .container
+
+      - if flash.present?
+        .alert-message.success
+          = flash[:notice] if flash[:notice].present?
+          %a.close{:href => '#'} x
+
       = yield
