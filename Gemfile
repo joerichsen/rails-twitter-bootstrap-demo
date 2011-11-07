@@ -19,7 +19,7 @@ end
 gem 'jquery-rails'
 
 gem 'twitter-bootstrap-rails'
-gem 'simple_form'
+gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 gem 'haml'
 
 # To use ActiveModel has_secure_password
