@@ -9,7 +9,7 @@
 
     = f.input :location
 
-    = f.input :starts_at, :as => :string
+    = f.input :starts_at, :as => :string, :input_html => { :class => 'datepicker' }
 
     .actions
       = button_tag 'Cancel', :type => :reset, :class => 'btn'
