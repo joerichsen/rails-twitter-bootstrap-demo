@@ -1,7 +1,7 @@
 %section
   %h1 New Meeting
 
-  = simple_form_for @meeting, :validate => true, :wrapper => :inline do |f|
+  = simple_form_for @meeting, :wrapper => :inline do |f|
 
     = f.input :title, :hint => '"Novembermøde" for example'
 
