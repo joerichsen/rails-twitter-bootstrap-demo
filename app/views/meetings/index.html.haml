@@ -1,0 +1,8 @@
+%section
+  %h1 Meetings
+
+  %ul
+    - for meeting in @meetings do
+      %li= meeting.title
+
+  = link_to 'new meeting', new_meeting_path, :class => 'btn'

@@ -1,0 +1,16 @@
+%section
+  %h1 New Meeting
+
+  = simple_form_for @meeting, :wrapper => :inline do |f|
+
+    = f.input :title, :hint => '"Novembermøde" for example'
+
+    = f.input :agenda, :input_html => { :class => 'span12' }
+
+    = f.input :location
+
+    = f.input :starts_at, :as => :string
+
+    .actions
+      = button_tag 'Cancel', :type => :reset, :class => 'btn'
+      = f.button :submit, :class => 'primary'

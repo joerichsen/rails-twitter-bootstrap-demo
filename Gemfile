@@ -21,6 +21,7 @@ gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 gem 'haml'
+gem 'inherited_resources'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
