@@ -3,6 +3,6 @@
 
   %ul
     - for meeting in @meetings do
-      %li= meeting.title
+      %li= link_to meeting.title, meeting, :rel => 'popover', 'data-content' => meeting.agenda, :title => meeting.location
 
   = link_to 'new meeting', new_meeting_path, :class => 'btn'
